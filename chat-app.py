@@ -263,7 +263,7 @@ class ChatApp:
 def main():
     root = tk.Tk()
     root.title(string="--- Chat App ---")
-    root.geometry(newGeometry="1020x600+500+500")
+    root.geometry(newGeometry="1020x600")
     root.config(background="#202020", padx=20, pady=20)
     root.resizable(width=False, height=False)
     # MAIN_THREAD = threading.Thread(group=None, target=ChatApp, name="*** Main Thread ***", args=(root,), kwargs=None, daemon=None)
